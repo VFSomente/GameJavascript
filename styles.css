@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto+Mono:ital@0;1&family=Tiny5&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -12,7 +15,8 @@ body {
 
 h1 {
     color: #333;
-    margin-bottom: 20px; /* Espaço entre o título e os resultados */
+    margin-bottom: 20px;
+    font-family: "MedievalSharp", cursive; /* Espaço entre o título e os resultados */
 }
 
 #result {
@@ -22,7 +26,9 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 80%; /* Define uma largura para o resultado */
-    max-width: 600px; /* Limita a largura máxima */
+    max-width: 600px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 1.3rem; /* Limita a largura máxima */
 }
 
 .resultado {
@@ -36,13 +42,14 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    background-color: #000; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
     border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 5px; 
+    font-family: "MedievalSharp", cursive;/* Bordas arredondadas */
 }
 
 button:hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
-    color: white;
+    background-color: #505050; /* Cor de fundo ao passar o mouse */
+    color: #fff;
 }
